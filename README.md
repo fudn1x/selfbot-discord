@@ -22,7 +22,7 @@ Selfbot em Python para **apagar mensagens da própria conta** (DMs ou grupos) co
 
 ```bash
 # 1. Clone
-git clone https://github.com/seu-usuario/selfbot-educacional.git
+git clone https://github.com/fudn1x/selfbot-discord
 cd selfbot-educacional
 
 # 2. Instale dependências
@@ -39,7 +39,7 @@ python3 selfbot.py
 
 ```bash
 # 1. Clone ou baixe o ZIP do projeto
-git clone https://github.com/seu-usuario/selfbot-educacional.git
+git clone https://github.com/fudn1x/selfbot-discord
 cd selfbot-educacional
 
 # 2. Execute o script (instala e roda de uma vez)
