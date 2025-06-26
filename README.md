@@ -27,7 +27,6 @@ cd selfbot-discord
 
 # 2. Instale dependências
 pip install -r requirements.txt
-sudo apt install python3-tk  # se não tiver Tk instalado
 
 # 3. Rode
 python3 selfbot.py
@@ -35,14 +34,17 @@ python3 selfbot.py
 ```
 
 
-### Windows (PowerShell)
+### 🪟 Windows (PowerShell)
 
-```bash
+```powershell
 # 1. Clone ou baixe o ZIP do projeto
 git clone https://github.com/fudn1x/selfbot-discord
 cd selfbot-discord
 
-# 2. Execute o script (instala e roda de uma vez)
+# 2. (apenas na primeira vez) libere a execução de scripts locais
+Set-ExecutionPolicy -ExecutionPolicy RemoteSigned -Scope CurrentUser
+# → digite S e pressione Enter quando for perguntado
+
+# 3. Execute o script que instala dependências e inicia o selfbot
 .\start_selfbot.ps1
 # Cole o token quando solicitado
-```
