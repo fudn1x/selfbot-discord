@@ -1,4 +1,4 @@
-# 🤖 Discord Selfbot Educacional — Modo Seguro 🛡️
+# 🤖 Discord Selfbot — Modo Seguro 🛡️
 
 Este é um projeto que permite o uso de um **selfbot em Python** para apagar mensagens da **própria conta de usuário** no Discord — com foco em **privacidade, segurança e respeito aos limites da API**.
 
